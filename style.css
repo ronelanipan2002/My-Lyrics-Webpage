@@ -1,0 +1,41 @@
+body{
+background-color: cornflowerblue; 
+font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#audio{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#lyrics{
+    text-align: center;
+    margin: 2em 0;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7cm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
